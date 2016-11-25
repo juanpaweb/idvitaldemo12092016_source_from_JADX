@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="11" android:background="#171d30" android:layout_width="-1" android:layout_height="-1">
+    <ImageView android:background="#171d30" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/splash" />
+</RelativeLayout>

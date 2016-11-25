@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/imagen_fondo" android:layout_width="-1" android:layout_height="-1">
+    <FrameLayout android:layout_width="-1" android:layout_height="wrap_content">
+        <LinearLayout android:layout_gravity="33" android:orientation="0" android:layout_width="-1" android:layout_height="50dp">
+            <include android:id="@id/my_toolbar" android:layout_width="-1" android:layout_height="-1" layout="@layout/toolbar" />
+        </LinearLayout>
+        <RelativeLayout android:layout_width="-1" android:layout_height="-1">
+            <ImageButton android:id="@id/nosotros" android:background="0x106000d" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/ico_soporte" android:layout_alignTop="@id/imageButton9" android:layout_alignParentLeft="true" />
+            <ImageButton android:id="@id/idalerta" android:background="0x106000d" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/ico_planes_perfiles" android:layout_alignTop="@id/imageButton9" android:layout_alignParentRight="true" />
+            <ImageButton android:id="@id/imageButton9" android:background="0x106000d" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/transparencia_central" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+            <ImageButton android:id="@id/qrcode1" android:background="0x106000d" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/ico_vital_tips" android:layout_alignTop="@id/carrito" android:layout_alignParentLeft="true" />
+            <ImageButton android:id="@id/carrito" android:background="0x106000d" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/ico_carro_de_compras" android:layout_alignBottom="@id/imageButton9" android:layout_alignParentRight="true" />
+            <ImageButton android:layout_gravity="50" android:id="@id/qcode" android:background="0x106000d" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="21dp" android:src="@drawable/ico_camara" android:layout_below="@id/imageButton9" android:layout_centerHorizontal="true" android:layout_alignWithParentIfMissing="false" />
+            <ImageButton android:layout_gravity="77" android:id="@id/imageButton13" android:background="0x106000d" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="23dp" android:src="@drawable/ico_nosotros" android:layout_above="@id/imageButton9" android:layout_alignLeft="@id/qcode" />
+        </RelativeLayout>
+    </FrameLayout>
+</LinearLayout>

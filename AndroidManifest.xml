@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:"http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="idvital1.idvital1" platformBuildVersionCode="24" platformBuildVersionName="7.0">
+    <uses-sdk android:minSdkVersion="15" android:targetSdkVersion="24" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera" android:required="false" />
+    <uses-feature android:name="android.hardware.camera.front" android:required="false" />
+    <uses-feature android:name="android.hardware.camera.autofocus" android:required="false" />
+    <uses-feature android:name="android.hardware.camera.flash" android:required="false" />
+    <uses-feature android:name="android.hardware.screen.landscape" android:required="false" />
+    <uses-feature android:name="android.hardware.wifi" android:required="false" />
+    <application android:theme="@style/AppTheme" android:label="@string/app_name" android:icon="@mipmap/ic_launcher" android:debuggable="true" android:allowBackup="true" android:supportsRtl="true">
+        <activity android:name="idvital1.idvital1.splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="idvital1.idvital1.nosotros" />
+        <activity android:name="idvital1.idvital1.alertas" />
+        <activity android:name="idvital1.idvital1.qrcode" />
+        <activity android:name="idvital1.idvital1.MainActivity" />
+        <activity android:name="idvital1.idvital1.qrcode1" />
+        <activity android:name="idvital1.idvital1.datos_paciente" />
+        <activity android:name="idvital1.idvital1.inicio" />
+        <activity android:theme="@style/zxing_CaptureTheme" android:name="com.google.zxing.client.android.CaptureActivity" android:clearTaskOnLaunch="true" android:stateNotNeeded="true" android:screenOrientation="sensorLandscape" android:windowSoftInputMode="3" />
+    </application>
+</manifest>
